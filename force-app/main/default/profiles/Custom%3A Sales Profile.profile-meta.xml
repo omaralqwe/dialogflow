@@ -11,6 +11,10 @@
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>false</enabled>
+        <name>DialogFlow_Config__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>false</enabled>
         <name>Object_Type__mdt</name>
     </customMetadataTypeAccesses>
     <fieldPermissions>
@@ -23,8 +27,16 @@
         <field>Account_Field__mdt.Active__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>DialogFlow_Config__mdt.Query_Limit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account_Field__mdt-Account Field Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DialogFlow_Config__mdt-DialogFlow Config Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Object_Type__mdt-Object Type Layout</layout>
