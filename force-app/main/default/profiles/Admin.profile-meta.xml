@@ -86,10 +86,7 @@
         <enabled>true</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AssignPermissionSets</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
@@ -150,18 +147,12 @@
         <enabled>true</enabled>
         <name>ContentAdministrator</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ConvertLeads</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateContentSpace</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeDashboards</name>
@@ -189,10 +180,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateWorkBadgeDefinition</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -290,10 +277,7 @@
         <enabled>true</enabled>
         <name>EmailSingle</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>EnableNotifications</name>
@@ -302,10 +286,7 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>FieldServiceAccess</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
@@ -414,22 +395,13 @@
         <enabled>true</enabled>
         <name>ManageHealthCheck</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHubConnections</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageInteraction</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageInternalUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageIpAddresses</name>
-    </userPermissions>
+    
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageKnowledge</name>
@@ -442,10 +414,7 @@
         <enabled>true</enabled>
         <name>ManageLeads</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageLoginAccessPolicies</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageMobile</name>
@@ -458,14 +427,8 @@
         <enabled>true</enabled>
         <name>ManagePackageLicenses</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManagePasswordPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageProfilesPermissionsets</name>
-    </userPermissions>
+    
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManagePropositions</name>
@@ -486,30 +449,15 @@
         <enabled>true</enabled>
         <name>ManageReportsInPubFolders</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageRoles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSearchPromotionRules</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSharing</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSolutions</name>
-    </userPermissions>
+    
+    
+    
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSubscriptions</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageSynonyms</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUnlistedGroups</name>
@@ -574,10 +522,7 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
@@ -666,18 +611,12 @@
         <enabled>true</enabled>
         <name>ViewDataCategories</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewDataLeakageEvents</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewFlowUsageAndFlowEventData</name>
-    </userPermissions>
+    
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewHealthCheck</name>
@@ -706,8 +645,5 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>WorkCalibrationUser</name>
-    </userPermissions>
+    
 </Profile>

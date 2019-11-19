@@ -2,7 +2,7 @@
 	name="Metadata and Source Cleanup" xmlns:if="ant:if"
 	xmlns:unless="ant:unless">
 	<property name="src.dir" value="../force-app/main/default" />
-    <property name="userPermissions" value="(Manage Hub Connections|EnableCommunityAppLauncher|FieldServiceAccess|ManageInternalUsers|ManageIpAddresses|ManageLoginAccessPolicies|ManagePasswordPolicies|ManageProfilesPermissionsets|ManageRoles|ManageSearchPromotionRules|ManageSharing|ManageSolutions|ManageSynonyms|SendExternalEmailAvailable|WorkCalibrationUser|ViewDataLeakageEvents|AssignPermissionSets|CreateWorkBadgeDefinition|ViewFlowUsageAndFlowEventData|ContentWorkspaces|CreateContentSpace|ViewUserPII|ManageHubConnections)" />
+    <property name="userPermissions" value="(Manage Hub Connections|EnableCommunityAppLauncher|FieldServiceAccess|ManageInternalUsers|ManageIpAddresses|ManageLoginAccessPolicies|ManagePasswordPolicies|ManageProfilesPermissionsets|ManageRoles|ManageSearchPromotionRules|ManageSharing|ManageSolutions|ManageSynonyms|SendExternalEmailAvailable|WorkCalibrationUser|ViewDataLeakageEvents|AssignPermissionSets|CreateWorkBadgeDefinition|ViewFlowUsageAndFlowEventData|ContentWorkspaces|CreateContentSpace|ViewUserPII|ManageHubConnections|CreateWorkBadgeDefinition)" />
     <property name="fieldPermissions" value="(Account.CleanStatus|Account.DandbCompanyId|Account.DunsNumber|Account.NaicsCode|Account.NaicsDesc|Account.OperatingHoursId|Account.Tradestyle|Account.YearStarted|Contact.CleanStatus)" />
             
 	<target name="clean">

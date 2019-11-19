@@ -5,7 +5,6 @@
     <label>DialogFlow App</label>
     <oauthConfig>
         <callbackUrl>https://www.getpostman.com/oauth2/callback</callbackUrl>
-        <consumerKey>3MVG954MqIw6FnnNelevho4dPZ5_AxNEIpf5OKTIjaryFWAXu7l3QWDTe2Qshp086_u2kaODEXhCfSVa7D1t_</consumerKey>
         <isAdminApproved>true</isAdminApproved>
         <scopes>Api</scopes>
         <scopes>Full</scopes>
