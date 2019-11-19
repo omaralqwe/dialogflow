@@ -1,0 +1,30 @@
+<project basedir="." 
+	name="Metadata and Source Cleanup" xmlns:if="ant:if"
+	xmlns:unless="ant:unless">
+	<property name="src.dir" value="../force-app/main/default" />
+    <property name="userPermissions" value="(Manage Hub Connections|EnableCommunityAppLauncher|FieldServiceAccess|ManageInternalUsers|ManageIpAddresses|ManageLoginAccessPolicies|ManagePasswordPolicies|ManageProfilesPermissionsets|ManageRoles|ManageSearchPromotionRules|ManageSharing|ManageSolutions|ManageSynonyms|SendExternalEmailAvailable|WorkCalibrationUser|ViewDataLeakageEvents|AssignPermissionSets|CreateWorkBadgeDefinition|ViewFlowUsageAndFlowEventData|ContentWorkspaces|CreateContentSpace|ViewUserPII|ManageHubConnections)" />
+    <property name="fieldPermissions" value="(Account.CleanStatus|Account.DandbCompanyId|Account.DunsNumber|Account.NaicsCode|Account.NaicsDesc|Account.OperatingHoursId|Account.Tradestyle|Account.YearStarted|Contact.CleanStatus)" />
+            
+	<target name="clean">
+		<!-- Profile Clean -->
+		<!--RegEx Used <userPermissions>\W*<enabled>\w*<\/enabled>\W*<name>EnableCommunityAppLauncher<\/name>\W*<\/userPermissions> -->
+		<echo message="--- Profiles remove userPermissions ${userPermissions}" />
+		<replaceregexp flags="gi">
+			<regexp pattern="&lt;userPermissions&gt;\W*&lt;enabled&gt;\w*&lt;\/enabled&gt;\W*&lt;name&gt;${userPermissions}&lt;\/name&gt;\W*&lt;\/userPermissions&gt;"/>
+			<substitution expression=""/>
+			<fileset dir="${src.dir}/profiles">
+				<include name="*.*"/>
+			</fileset>
+        </replaceregexp>
+        
+        <!--RegEx Used <fieldPermissions>\W*<editable>\w*</editable>\W*<field>Account.CleanStatus</field>\W*<readable>\w*</readable>\W*</fieldPermissions> -->
+		<echo message="--- Profiles remove fieldPermissions ${fieldPermissions}" />
+            <replaceregexp flags="gi">
+                <regexp pattern="&lt;fieldPermissions&gt;\W*&lt;editable&gt;\w*&lt;\/editable&gt;\W*&lt;field&gt;${fieldPermissions}&lt;\/field&gt;\W*&lt;readable&gt;\w*&lt;/readable&gt;\W*&lt;\/fieldPermissions&gt;"/>
+                <substitution expression=""/>
+                <fileset dir="${src.dir}/profiles">
+                    <include name="*.*"/>
+                </fileset>
+            </replaceregexp>
+	</target>
+</project>
