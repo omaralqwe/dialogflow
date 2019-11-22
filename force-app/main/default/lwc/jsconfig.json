@@ -2,11 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {
-            "c/dialogFlow": [
-                "../../../../dialogFlow/dialogFlow.js"
-            ]
-        }
+        "paths": {}
     },
     "include": [
         "**/*",
